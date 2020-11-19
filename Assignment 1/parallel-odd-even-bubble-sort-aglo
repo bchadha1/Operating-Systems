@@ -1,0 +1,20 @@
+1.   procedure ODD-EVEN_PAR (n) 
+2.   begin 
+3.      id := process's label 
+4.      for i := 1 to n do 
+5.      begin 
+6.         if i is odd then 
+7.             if id is odd then 
+8.                 compare-exchange_min(id + 1); 
+9.             else 
+10.                compare-exchange_max(id - 1); 
+11.        if i is even then 
+12.            if id is even then 
+13.                compare-exchange_min(id + 1); 
+14.            else 
+15.                compare-exchange_max(id - 1); 
+16.     end for 
+17.  end ODD-EVEN_PAR 
+
+
+
