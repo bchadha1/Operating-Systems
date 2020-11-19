@@ -49,7 +49,7 @@ int main()
 		shmctl(shmid, IPC_RMID, 0);
 	}
 
-	printf("Enter the length of the array: ");
+	printf("Enter the length of array: ");
         scanf("%d",&n);
         num = (int*)malloc(sizeof(int)*n);
         printf("Enter the array:\n");
