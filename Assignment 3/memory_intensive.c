@@ -33,11 +33,7 @@ int main()
 		}
 	}
 
-	// What is the difference between first and second for loop?
-	// How many pages are allocated for the matrix?
-	// Which loop performs better?
-	// What happens if the number of rows increase?
-	// What happens if the number of columns increase?
+
 	
 	// while(1);
 
