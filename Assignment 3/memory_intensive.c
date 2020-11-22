@@ -35,7 +35,7 @@ int main()
 
 
 	
-	// while(1);
+	while(1);
 
 	for(i = 0; i < rows; i++)
 		free(matrix[i]);
