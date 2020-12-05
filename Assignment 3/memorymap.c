@@ -1,4 +1,7 @@
 #include <linux/mm.h>
+#include <linux/rmap.h>
+#include <linux/sched.h>
+#include <linux/types.h>
 
 struct task_struct
 {
