@@ -35,7 +35,7 @@ static struct page *walk_page_table(unsigned long addr)
         goto out;
     printk(KERN_NOTICE "Valid pmd");
 
-    ptep = pte_offset_map(pmd, addr);
+    ptep= pte_offset_map(pmd, addr);
     if (!ptep)
         goto out;
     pte = *ptep;
