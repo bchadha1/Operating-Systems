@@ -40,7 +40,7 @@ static struct page *walk_page_table(unsigned long addr)
         goto out;
     pte = *ptep;
 
-    page = pte_page(pte);
+    page= pte_page(pte);
     if (page)
     {
         printk(KERN_INFO "page frame struct is @ %p", page);
